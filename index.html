@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./Assets/android-chrome-512x512.png" type="image/x-icon" />
+ 
+  <title>Adeebkhan Portfolio</title>
+
+    <script src="index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('t9et3WMHLRJkREQj5');
+        })();
+    </script>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navigation-bar Starts-->
+
+  <header>
+    <div class="nav-wrapper">
+      <a href="#" class="logo-anchor"><span class="logo">A<span id="logo-k">K</span></span></a>
+      
+      <nav class="navigation-list">
+        <ul>
+          <li><a href="#hero-container" class="navigation-list-item">Home</a></li>
+        </ul>
+        <ul>
+          <li><a href="#about-me-container" class="navigation-list-item">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="#skills-container" class="navigation-list-item">Skills</a></li>
+        </ul>
+        <ul>
+          <li><a href="#project-section" class="navigation-list-item">Project</a></li>
+        </ul>
+        <ul>
+          <li><a href="#conatct-me-section" class="navigation-list-item">Contact Me</a></li>
+        </ul>
+      </nav>
+      <svg onclick="toogleMenu('close')" width="60px" height="60px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="00000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#45474B" stroke-width="2" stroke-linecap="round"></path> <path d="M4 12L20 12" stroke="#45474B" stroke-width="2" stroke-linecap="round"></path> <path d="M4 6L20 6" stroke="#45474B" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+      <!-- <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="X"><g fill="none" fill-rule="evenodd" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="colorStroke000000 svgStroke"><path d="M13 1 1 13M1 1l12 12" fill="#45474b" class="color000000 svgShape"></path></g></svg> -->
+    </div>
+
+
+    <div class="mobile-navigation" id="close" >
+      <ul>
+        <li><a href="#hero-container">Home</a></li>
+        <li><a href="#about-me-container">About</a></li>
+        <li><a href="#skills-container">Skills</a></li>
+        <li><a href="#project-section">Project</a></li>
+        <li><a href="#conatct-me-section">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- <--Navigation Bar Ends Here-- -->
+
+  <div class="container">
+    <!-- --HeroSection Starts Here-- -->
+    <section id="hero-container" class="section-container">
+      <div class="hero-section">
+        <div class="hero-description">
+          <p>Hey👋🏻,</p>
+
+          <p>it's me,</p>
+
+          <p id="hero-heading">Adeebkhan Pathan,</p>
+
+          <p>Web Artisan.</p>
+
+          <a id="download-cv-button" href="#">Download CV</a>
+        </div>
+        <div class="hero-picture">
+          <img class="hero-image" src="./Assets/WhatsApp_Image_2023-11-12_at_21.45.13_a03647a3-removebg-preview.png"
+            alt="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- --Hero Section ENds Here-- -->
+
+    <!-- About me Section Starts here -->
+
+    <section id="about-me-container" class="section-container">
+      <div class="container-heading-section">
+        <h1 class="container-heading">About Me</h1>
+        <p class="container-punch-line">
+          <span class="apostrophi">"</span>Crafting code with frontend
+          zeal<span class="apostrophi">"</span>
+        </p>
+      </div>
+
+      <div class="about-me-area">
+        <div class="about-me-image-container"></div>
+        <div class="about-me-description">
+          <ul class="about-me-description-list">
+            <li>
+              Hey, I'm Adeebkhan Pathan, a frontend enthusiast. I've honed
+              skills in HTML, CSS, JavaScript, React, and graduated in
+              Computer Science.
+            </li>
+            <li>
+              Enthusiastic about frontend development, dedicated to continual
+              skills enhancement.
+            </li>
+            <li>
+              Proficient in HTML, CSS, JavaScript, React, and staying current
+              on industry trends.
+            </li>
+            <li>
+              Completed diverse projects, focusing on hands-on frontend
+              development for user-friendly interfaces.
+            </li>
+            <li>
+              Actively pursuing roles to contribute skills and passion in a
+              collaborative environment.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-container" class="section-container">
+      <div class="container-heading-section">
+        <h1 class="container-heading">Skills</h1>
+        <p class="container-punch-line">
+          <span class="apostrophi">"</span>Skills that speak through code<span class="apostrophi">"</span>
+        </p>
+      </div>
+
+      <div class="skill-area">
+        <div class="skill-card">
+          <img src="./Assets/html.png" alt="html-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/css-3.png" alt="css-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/js.png" alt="js-logo" />
+        </div>
+
+        <div class="skill-card">
+          <img src="./Assets/java.png" alt="java-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/science.png" alt="raect-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/bootstrap.png" alt="bootstrap-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/pngwing.com.png" alt="tailwind-css-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/git.png" alt="git-logo" />
+        </div>
+        <div class="skill-card">
+          <img src="./Assets/python.png" alt="python" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About me Section Ends Here -->
+
+    <!-- Project Section starts Here` -->
+
+    <section id="project-section" class="section-container">
+      <div class="container-heading-section">
+        <h1 class="container-heading">Projects</h1>
+        <p class="container-punch-line">
+          <span class="apostrophi">"</span>Digital Masterpieces<span class="apostrophi">"</span>
+        </p>
+      </div>
+
+      <div class="project-container">
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/news.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">News App</h3>
+
+              <p class="project-description">
+                A dynamic news aggregator project using HTML, CSS, and JavaScript, offering real-time news updates in a visually appealing web layout. Stay informed with a responsive interface, seamlessly fetching and presenting the latest headlines.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS, JS </p>
+            <div class="preview-links">
+              <a href="https://news-project-using-api-eight.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/News-Project-Using-API" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/notes app.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Notes App</h3>
+
+              <p class="project-description">
+                A user-friendly notes app crafted with HTML, CSS, and JavaScript, allowing seamless note-taking and organization in a sleek web interface. Enhance productivity with this minimalist yet effective tool for capturing and managing your thoughts.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS, JS </p>
+            <div class="preview-links">
+              <a href="https://notes-app-nine-delta.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/Notes-app" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/whack mole game.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Whack Mole Game</h3>
+
+              <p class="project-description">
+                A lively Whack-a-Mole game created using HTML, CSS, and JavaScript, where players aim to quickly tap emerging moles for a fun and fast-paced web gaming experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS, JS </p>
+            <div class="preview-links">
+              <a href="https://whack-mole-game.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/Whack-Mole-Game" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/tic tac toe.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Tic Tac Toe Game</h3>
+
+              <p class="project-description">
+                A sleek two-player Tic-Tac-Toe game designed with HTML, CSS, and JavaScript for a seamless, interactive gaming experience. Enjoy strategic competition in a minimalist web interface.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS, JS </p>
+            <div class="preview-links">
+              <a href="https://tic-tac-toe-game-plum-seven.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/Tic-Tac-Toe-Game" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/edie home page.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Edie Homepage</h3>
+
+              <p class="project-description">
+                Homepage is a popular task that a developer has to do. In this challenge, you will work with Edie - a small team providing web services. 
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS </p>
+            <div class="preview-links">
+              <a href="https://edie-homepage-master-six.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/edie-homepage-master" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/checkout page.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Checkout Page</h3>
+
+              <p class="project-description">
+                In this challenge, you will work with the form in a modern and minimal design. The challenge will bring your HTML and CSS to a new level. 
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS </p>
+            <div class="preview-links">
+              <a href="https://checkout-page-revised-project.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/checkout-page-revised-project" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/gallery.jpg" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">My Gallery</h3>
+
+              <p class="project-description">
+                Inspired by instagram, in this challenge you will work with a similar design to instagram profile page.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS </p>
+            <div class="preview-links">
+              <a href="https://my-gallery-master-beta.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/my-gallery-master" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/recpie.jpg" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Recipe Blog Page</h3>
+
+              <p class="project-description">
+                Recipe Blog Page" is a streamlined web project offering a user-friendly platform for exploring diverse recipes with clear instructions. The design emphasizes simplicity, ensuring an engaging and straightforward culinary experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS </p>
+            <div class="preview-links">
+              <a href="https://recipe-page-master-akpathan2799.vercel.app/" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/recipe-page-master" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/interior consultant.jpg" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Interior Consultant</h3>
+
+              <p class="project-description">
+                Crafting personalized interiors, we focus on creating environments that resonate with your style, emphasizing simplicity, comfort, and elegance
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS </p>
+            <div class="preview-links">
+              <a target="_blank" href="https://interior-consultant-master-blue.vercel.app/" class="project-link">Live Link</a>
+              <a target="_blank" href="https://github.com/akpathan2799/interior-consultant-master" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/team-master.jpg" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">Team Master Page</h3>
+
+              <p class="project-description">
+                Team Master Page: Crafted a responsive web project with HTML and CSS, ensuring a clean design and adaptability for all devices.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML, CSS</p>
+            <div class="preview-links">
+              <a href="https://my-team-page-master-navy.vercel.app/" target="_blank" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/my-team-page-master" target="_blank" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-body">
+            <img src="./Assets/404notfound.png" alt="project-image" class="project-image" />
+
+            <div class="project-content">
+              <h3 class="project-heading">404 Not Found Page</h3>
+
+              <p class="project-description">
+                Crafted with precision, my 404 page seamlessly blends HTML and CSS. Error elegance meets sleek design—turning glitches into visual poetry.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <p class="tech-stack">Tech Stack : HTML , CSS</p>
+            <div class="preview-links">
+              <a href="https://404-page-not-found-green.vercel.app/" target="_blank" class="project-link">Live Link</a>
+              <a href="https://github.com/akpathan2799/404-Page-Not-Found" target="_blank" class="project-link">Code Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section Ends Here -->
+
+
+    <!-- Contact ME Section Starts here -->
+
+
+    <section id="conatct-me-section" class="section-container">
+      <div class="container-heading-section">
+        <h1 class="container-heading">Contact Me</h1>
+        <p class="container-punch-line">
+          <span class="apostrophi">"</span>Reach out. I'm ready to listen<span class="apostrophi">"</span>
+        </p>
+      </div>
+
+
+
+      <div class="contact-me-container">
+
+        <img src="./Assets/undraw_Personal_text_re_vqj3__1_-removebg-preview.png" alt="contact-me" class="contact-me-image">
+
+        <div class="contact-me-form">
+
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/adeebkhan-pathan/"
+             target="_blank"><img src="./Assets/linkedin.png" alt="linkedin-image" class="social-icon"></a>
+
+            
+            <a href="https://github.com/akpathan2799" target="_blank"><img src="./Assets/social.png" alt="github-image" class="social-icon" ></a>
+
+          </div>
+
+
+          <form  id="contact-form">
+  
+            <input type="text" name="user_name" placeholder="Enter Name">
+            <input type="email" name="user_email" placeholder="Enter Email">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+  
+           <input class="button" type="submit" value="Send">
+  
+          </form>
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+    <!-- Contact Me Section Ends Here -->
+
+
+    <!-- footer starts here -->
+
+    <footer>
+      <h4>Designed with ❤️, Developed with Passion by Adeebkhan Pathan.</h4>
+    </footer>
+
+    <!-- footer ends Here -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
+
+
+
