@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--primary-color);
+  
 }
 
 /* Navigation starts here */
@@ -363,7 +364,7 @@ display: none;
 
   height: 180px;
   width: 100%;
-  object-fit: inherit;
+  object-fit: cover;
 
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -480,7 +481,6 @@ textarea {
   background-color: var(--dark-red);
   border: none;
   color: var(--fade-grey);
-  cursor: pointer;
   height: 50px;
   font-size: 1rem;
   font-weight: 500;
@@ -618,19 +618,32 @@ footer h4 {
 
 
   .hero-image {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     background-color: var(--fade-grey);
     object-fit: cover;
     border-radius: 50%;
   }
 
 
+  .contact-me-form {
+    display: flex;
   
-.hero-description {
-  font-weight: 700;
-  font-size: 2.3rem;
-  color: var(--fade-grey);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 100%;
+  }
+  .hero-description {
+    display: flex;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--fade-grey);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.1rem;
 }
 
 #hero-heading {
@@ -691,6 +704,7 @@ footer h4 {
     .container {
       width:100%;
       margin: auto;
+      padding: 0.5rem;
       min-height: 100vh;
       display: grid;
       grid-template-rows: auto 1fr;
