@@ -625,6 +625,14 @@ footer h4 {
     border-radius: 50%;
   }
 
+  .contact-me-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
 
   .contact-me-form {
     display: flex;
@@ -646,10 +654,6 @@ footer h4 {
     gap: 0.1rem;
 }
 
-.about-me-description {
-  width: 100%;
-  padding: 0 2rem;
-}
 
 
 #hero-heading {
