@@ -646,6 +646,12 @@ footer h4 {
     gap: 0.1rem;
 }
 
+.about-me-description {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+
 #hero-heading {
   font-size: 2.8rem;
   color: var(--dark-red);
