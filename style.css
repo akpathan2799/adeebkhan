@@ -675,6 +675,7 @@ footer h4 {
   margin: auto;
   min-height: 100vh;
   display: grid;
+  padding: 0.2rem;
   grid-template-rows: auto 1fr;
 }
 
